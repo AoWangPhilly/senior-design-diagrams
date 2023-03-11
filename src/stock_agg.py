@@ -1,7 +1,5 @@
-from diagrams import Diagram, Cluster, Edge
+from diagrams import Diagram, Cluster
 from diagrams.custom import Custom
-from diagrams.programming.framework import FastAPI
-from diagrams.onprem.database import PostgreSQL
 from diagrams.onprem.client import Client, Users
 from diagrams.programming.language import Python
 from diagrams.generic.storage import Storage
